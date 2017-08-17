@@ -1,0 +1,128 @@
+body{
+	background-color:orange;
+	background:url(bottle1.jpg);
+	background-size:100% 900px;
+	background-repeat: no-repeat;
+	
+	opacity:1;
+	//margin-bottom:50px;
+}
+#body{
+	background:url(bottle3.jpg);
+	
+}
+
+h3{
+	background-color:white;
+	height:40px;
+	width:550px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:0px;
+	text-align:center;
+	text-shadow: 0px 0px 1px #000000;
+	border-radius:10px;
+	font-size:35px;
+	color:black;
+	
+}
+h1{
+	
+text-align:center;	
+background-color:#ffffff;
+text-shadow: 0px 0px 1px #000000;
+color:black;
+font-size:45px;
+}
+
+#head{
+	padding-top:20px;
+	font-size:30px;
+}
+h5{
+	
+	padding-top:0px;
+	padding-left:0px;	
+}
+
+.box{
+	
+	padding-top:10px;
+	padding-top:10px;
+	padding-left:20px;
+	margin-top:10px;
+	margin-left:0px;
+	border-radius:10px;
+	//height:0px;
+	width:300px;
+	font-size:28px;
+	
+	}
+#rs{
+	padding-left:20px;
+	
+	
+}
+
+
+
+
+#details{
+	color:white;
+	float:right;
+	//background:url(contact1.jpg);
+	background-repeat: no-repeat;
+	background-color:#00ace6;
+	background-size:100% 710px;
+	opacity:1;
+	width:550px;
+	height:750px;
+	display:fixed;
+	font-weight:bold;
+	font:white;
+	font-size:20px;
+	padding:20px;
+	margin-right:20px;
+border-radius:15px;
+margin-bottom:30px;
+}
+ 
+#details .rbtn{
+width:30px;
+height:15px;
+
+} 
+
+.sub{
+	
+	margin-top:20px;
+	margin-left:40px;
+	width:150px;
+	border-radius:15px;
+	
+	text-align:center;
+	font-size:25px;
+	background-color:#4674b9;
+	color:white;
+	
+	
+	
+	
+}
+.sub:hover{
+	
+	margin-top:20px;
+	margin-left:40px;
+	width:150px;
+	border-radius:15px;
+	font-size:20px;
+	text-align:center;
+	background-color:#ffe6e6;
+	font-size:25px;
+	background-color:white;
+	color:black;
+} 
+
+
+
+

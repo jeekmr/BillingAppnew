@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+         <link rel="stylesheet" href="neer.css">
+        
+        <script>
+            
+            function calc()
+            {
+                var n1 = parseFloat(document.getElementById('n1').value);
+                var n2 = parseFloat(document.getElementById('n2').value);
+                var subtotal=20*n2;
+                var gst=subtotal*0.18;
+                var amount=subtotal+gst;
+                
+                
+               // var oper = document.getElementById('operators').value;
+                
+                
+                    document.getElementById('cid').value = n1;
+                   document.getElementById('qty').value = n2;
+                   document.getElementById('sub').value = "Rs"+ subtotal;
+                   document.getElementById('gst').value = "Rs"+gst;
+                   document.getElementById('amount').value = "Rs"+ amount;
+                   
+                
+            }
+            
+        </script>
+        
+</head>
+    
+<body>
+<div id="body">
+        <h1>NEER BOOKING</h1>
+      
+        <div id="details">
+        
+        <h3>NEER</h3>
+ <table>   
+    <tr>
+       <td id="head">Customer ID:</td> 
+       		<td>
+       			<input type="text" id="n1" class="box"/>
+     		  		</td>
+       			<tr>
+      <td id="head">Quantity:</td>
+       		<td>
+       			<input type="text" id="n2" class="box"/>
+					</td>        
+        		<tr>
+        </table>
+   
+                
+        <button onclick="calc()" id="submit" class="sub">SUBMIT</button><br>
+        
+        <form action="PaymentSave" method="post">
+        
+        <table>
+        <tr>
+        	<td id="head">Customer ID:</td>
+        		<td>
+        			<input type="text" id="cid" class="box"/>
+        				</td>
+    	    				</tr>
+        <tr>	
+        	<td id="head" >Quantity:</td>
+        		<td> 
+        			<input type="text" id="qty" class="box"/>
+        				</td>
+        					</tr>
+        <tr>
+        	<td id="head">subTotal:</td>
+       			
+       				 <td>
+        				<input type="text" id="sub" class="box"/>
+        					</td>
+        					</tr>
+        <tr>
+        	<td id="head">GST:</td>
+        		<td>
+        			<input type="text" id="gst" class="box"/>
+        				</td>
+        					</tr>
+        <tr>
+        	<td id="head">Amount:</td>
+        		<td>
+        			<input type="text" id="amount" class="box"/>
+        				</td>
+        					</tr>
+        </table>
+        	
+        <input type ="submit" value="pay" class="sub"/>
+        
+        </form>
+        </div> 
+        </div> 
+    </body>
+</html>
